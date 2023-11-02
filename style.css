@@ -1,29 +1,28 @@
+.body {
+  padding: 0;
+  margin: 0;
+}
+
 .container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+}
+/* devide flex to two items*/
+.left-side {
+  width: 50%;
+  height: 100vh;
+  margin-right: 40px;
 }
 
-img {
-  max-width: 25%;
-  max-height: 100%;
-  float: left;
-  margin-right: 50px;
+.right_side {
+  width: 50%;
+  color: rgb(147, 184, 147);
+  height: 100vh;
+  overflow: hidden;
 }
-.text {
-  display: flex;
-  margin: 20px;
-  margin-top: 90px;
-}
-
-.form-body {
-  display: flex;
-}
-#head {
-  justify-content: center;
+/* the image fit inside the flex item*/
+.left-side img {
   width: 100%;
-}
-#h2 {
-  margin: 20px;
-  text-align: center;
+  height: 100%;
+  object-fit: cover;
 }
