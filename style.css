@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 25%;
+  max-height: 100%;
+  float: left;
+  margin-right: 50px;
+}
+.text {
+  display: flex;
+  margin: 20px;
+  margin-top: 90px;
+}
+
+.form-body {
+  display: flex;
+}
+#head {
+  justify-content: center;
+  width: 100%;
+}
+#h2 {
+  margin: 20px;
+  text-align: center;
+}
